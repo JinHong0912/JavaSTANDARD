@@ -1,6 +1,6 @@
 package javaStandard;
 
-public class JavaEx2_1 {
+public class JavaEx2_2 {
 
 	public static void main(String[] args) {
 		//변수 : 값을 저장할 수 있는 메모리상의 공간
@@ -8,20 +8,6 @@ public class JavaEx2_1 {
 		
 		//변수 선언
 		System.out.println("hello world");
-		int number; //정수형 변수 number 선언
-		
-		number = 10;
-		
-		System.out.println(number);
-		
-//		int a;
-//		int b;
-//		
-//		int x;
-//		int y;
-//		
-		int a,b;
-		int x,y;
 		
 		// 예약어
 //		abstract do       if         package    synchronized
@@ -35,6 +21,23 @@ public class JavaEx2_1 {
 //		continue float    new        super      volatile
 //		default for       null       switch     while
 			
+		//변수의 타입
+		//기본형
+		 //boolean, char , byte , short , int , long ,float , double
 		
+		//참조형 : 8개의 기본형을 제외한 나머지 타입, 객체의 주소를 저장한다.
+		//참조 변수 선언 
+		//클래스이름 변수명 ; //타입이 클래스이름인 것들은 모두 참조 변수이다.
+		//참조변수는 null 또는 객체의 주ㅗ소를 값으로 갖는다.
+		//Date today;
+		//참조변수 초기화
+		//Date today = null;
+		//Date today = new Date();
+		//객체를 생성하는 연산자 new의 연산결과는 생성된 객체의 주소이다.
+		//이 주소가 대입연산자 = 에 의해서 참조변수 today에 저장 되는 것이다
+	
+	
+	
+	
 	}
 }
