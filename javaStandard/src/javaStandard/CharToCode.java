@@ -18,7 +18,7 @@ public class CharToCode {
 			
 			
 			System.out.println(code);
-			System.out.println(ch);
+			System.out.println(ch); 
 		}
 }
 
