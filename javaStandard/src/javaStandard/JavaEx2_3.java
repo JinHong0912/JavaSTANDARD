@@ -28,11 +28,16 @@ public class JavaEx2_3 {
 		//boolean power = true;
 		//System.out.println(power);
 		
-	
+		//문자형 - char (2 바이트)
+		//C 언어에서는 1바이트
+		char firstLetter = 'A';
+		System.out.println(firstLetter);
+		
+		char test = '\u0041';
+		System.out.println(test);
 		
 		
-		
-		
+		//[예제 2-1]
 		
 		
 		
