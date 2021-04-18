@@ -1,28 +1,28 @@
 package javaCh6;
 
+class Data1{int x;}
+
 public class JavaEx6_5 {
-	
-	
+
 	public static void main(String[] arg) {
+		// 기본형 매개변수
+		// 참조형 매개변수
 		
-	//메서드 선언
-	JavaEx6_5 r = new JavaEx6_5(); // 인스턴스 선언
-	 
-	int result = r.add(3, 5);
-	System.out.println(result);
-		 
-	
-	int[] result2 = {0}; // 배열을 생성하고 result[0] 의 값을  0으로 초기화
-	r.add(3, 5, result2); // 배열을 add 메서드의 매개변수로 전달
-	System.out.println(result2[0]);
+		Data1 d = new Data1();// 인스턴스 생성
+		
+		d.x = 10;
+		System.out.println(d.x);
+		
+		// x 의 값을 변경
+		change(d.x);
+		System.out.println(d.x);
+		
+		
 	}
 	
-	int add(int a, int b) {
-		return a+b;
-	}
-	
-	void add(int a, int b, int[] result2) {
+	static void change(int x) {// 기본 매개변수
+		x = 1000;
+		System.out.println(x);
 		
-		result2[0] = a+b;
 	}
 }
