@@ -9,7 +9,7 @@ public class JavaEx5_2 {
 	int input = 0;
 	
 	System.out.println("문장을 입력하세요");
-	System.out.println("입략을 마치면 x을 입력하세요");
+	System.out.println("입을 마치면 x을 입력하세요");
 	
 	
 	do {
