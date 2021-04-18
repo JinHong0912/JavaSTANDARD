@@ -1,4 +1,4 @@
-package javaStandard;
+package javaCh6;
 
 
 public class javeEx6_12 {

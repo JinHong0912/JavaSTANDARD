@@ -1,4 +1,4 @@
-package javaStandard;
+package javaCh6;
 
 //import com.sun.tools.javac.parser.Scanner;
 

@@ -1,4 +1,4 @@
-package javaStandard;
+package javaCh6;
 
 class Data{
 	int x;

@@ -1,7 +1,7 @@
-package javaStandard;
+package javaCh6;
 
 
-class Tv{
+class Tv3{
 	// Tv의 속성 (멤버 변수)
 	
 	String color; // 색상
@@ -15,7 +15,7 @@ class Tv{
 	
 }
 
-public class JavaEx6_1 {
+public class JavaEx6_3 {
 	
 	public static void main(String[] arg) {
 		
@@ -32,12 +32,21 @@ public class JavaEx6_1 {
 //		Tv t; // Tv 인스턴스를 참조 하기 위한 변수 t를 선언
 //		t = new Tv(); // Tv 인스턴스를 생성 한다.
 
-		Tv t = new Tv(); // 클래스명 변수명 = new 클래스명
-						
-		t.channel = 7; // Tv 인스턴스의 멤버 변수 channel 의 값을 7로 한다.
-		t.channelDown(); // Tv인스턴스의 메서드 channelDown()을 호출한다.
+		Tv3 t1 = new Tv3(); // 클래스명 변수명 = new 클래스명
+		Tv3 t2 = new Tv3(); // 클래스명 변수명 = new 클래스명
 		
-		System.out.println("현재 채널은 " + t.channel + "입니다");
+		System.out.println("t1 채널 값은 " + t1.channel + "입니다");
+		System.out.println("t2 채널 값은 " + t2.channel + "입니다");
+	
+		t2 = t1; // t1이 저장하고 있는 값 ( 주소 )을 t2에 저장한다.
+		t1.channel = 7; // Tv 인스턴스의 멤버 변수 channel 의 값을 7로 한다.
+		System.out.println("t1 채널을 7로 변경 합니다.");
+	
+		
+		System.out.println("t1 채널 값은 " + t1.channel + "입니다");
+		System.out.println("t2 채널 값은 " + t2.channel + "입니다");
+	
+		
 		
 		
 		

@@ -20,7 +20,7 @@ public class Object_t1 {
 			//Object_t1 ob1 = new Object_t1();
 //			Object_t1 ob2 = new Object_t1("steveleejava","01055557777"); 샐성자
 //			Object_t1 ob3 = new Object_t1("steveleejava");
-			Object_t1 ob4 = new Object_t1("steveleejava","01055557777",38);
+//			Object_t1 ob4 = new Object_t1("steveleejava","01055557777",38);
 //			Object_t1 ob5 = new Object_t1("steveleejava",38);
 			
 			
