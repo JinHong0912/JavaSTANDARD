@@ -7,13 +7,16 @@ package javaTast;
 		
 	public static void main(String[] args) {
 		
+		JavaTest2 jt = new JavaTest2();
+		
 		int b = 10;
 		// 변수 a에 b값을 넣고 콘솔에 출력해 보시오.
-		//a = b;
-	
-		JavaTest2 t2 = new JavaTest2();
+		jt.a = b;
+		System.out.println(jt.a);
 		
-		t2.a = b;
+//		JavaTest2 t2 = new JavaTest2();
+//		
+//		t2.a = b;
 		
 	}
 

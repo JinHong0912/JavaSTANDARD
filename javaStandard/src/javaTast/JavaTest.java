@@ -14,20 +14,22 @@ public class JavaTest {
 				// 데이터 핸들링이다
 				
 				//1 주석을 풀고 에러를 잡아라
-				//float c = 1.4432f;
+				float c = 1.4432f;
 				
 				//1-1 주석을 풀고 에러를 잡아라
-				//int d = c;
-				//double d = c;
+				int d = (int)c;
+				double h = c;
 				
 				int e = 300;
 				//2 주석을 풀고 에러를 잡아 e를 f로 넣어라
 				//숫자->문자
-				//String f = e;
+				String f = String.valueOf(e);
+//				String f = Integer.toString(e);
+				
 				
 				String g = "400";
 				//3 주석을 풀고 에러를 잡아 g를 h로 넣어라
-				//int h = Integer.parseInt(g);
+				int t = Integer.parseInt(g);
 						
 	
 	

@@ -9,8 +9,10 @@ package javaTast;
 		
 		// 문제 : 아래 메서드의 static을 지우고나서
 		// 메서드가 잘 실행될 수 있도록 수정개발 해보시오.
-		//printNumber();
-	
+		JavaTest3 jt = new JavaTest3();
+		jt.printNumber();
+		 
+		 
 	 
 		
 	}
