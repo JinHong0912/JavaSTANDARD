@@ -11,11 +11,10 @@ public class OtherssOOP {
 		System.out.println(Math.floor(1.8)); // 내림 매서도 있다
 		System.out.println(Math.ceil(1.8)); // 올림
 		
-//		FileWriter f1 = new FileWriter("data.txt"); // 파일 생성
-//		f1.write("Hello");
-//		f1.write("Java");
-//		f1.close();
-//	
+		FileWriter f1 = new FileWriter("data.txt"); // 파일 생성 
+		f1.write("Hello");
+		f1.write("Java");
+		f1.close();
 	}
 
 }
