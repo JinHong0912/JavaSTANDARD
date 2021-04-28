@@ -1,7 +1,8 @@
 package javaCh6;
 
 class Data1{
-	int x;}
+	int x;
+	}
 
 public class JavaEx6_5 {
 
