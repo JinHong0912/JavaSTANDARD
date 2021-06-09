@@ -4,6 +4,10 @@ public class ConstructorTester {
 	
 	public static void main(String[] args) {
 		
+		
+		Human hm = new Human();
+		
+		
 		Human hm_1 = new Human("동현", 174);
 		int hm_1_height = hm_1.getHeight();
 		String hm_1_name = hm_1.getName();

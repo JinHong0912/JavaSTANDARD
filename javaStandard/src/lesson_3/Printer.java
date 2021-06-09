@@ -1,57 +1,57 @@
-package lesson_3;
-
-
-public class Printer {
-
-	private boolean power;
+	package lesson_3;
 	
-	Ink ink;
 	
-	public Printer() {
-		power = false;
-		ink = new Ink();
-	}
+	public class Printer {
 	
-	public Printer(boolean power) {
-		this();
-		this.power = power;
-	}
-
-	public boolean checkPower() {
-		if (power == true) {
-			System.out.println("전원 상태 : ON ");
-		}else {
-			System.out.println("전원 상태 : OFF");
+		private boolean power;
+		
+		Ink ink;
+		
+		public Printer() {
+			power = false;
+			ink = new Ink();
 		}
-		return this.power;
-	}
-
-	public void changeInk(Ink ink) {
-		this.ink = ink;
-	}
-	
-	public void powerOn() {
-		power = true;
-	}
-	
-	public void powerOff() {
-		power = false;
-	}
-	
-	public void print(String str) {
-		if(power == false) {
-			System.out.println("전원을 켜주세요.");
-			return;
+		
+		public Printer(boolean power) {
+			this();
+			this.power = power;
 		}
-		if(!ink.existInk()) {
-			System.out.println("잉크가 없습니다. 교체해주새요.");
-			return;
+	
+		public boolean checkPower() {
+			if (power == true) {
+				System.out.println("전원 상태 : ON ");
+			}else {
+				System.out.println("전원 상태 : OFF");
+			}
+			return this.power;
 		}
-		ink.useInk();
-		System.out.print("촐력 시작");
-		System.out.print("<<"+str+">>");
-		System.out.print("출력 끝");
 	
+		public void changeInk(Ink ink) {
+			this.ink = ink;
+		}
+		
+		public void powerOn() {
+			power = true;
+		}
+		
+		public void powerOff() {
+			power = false;
+		}
+		
+		public void print(String str) {
+			if(power == false) {
+				System.out.println("전원을 켜주세요.");
+				return;
+			}
+			if(!ink.existInk()) {
+				System.out.println("잉크가 없습니다. 교체해주새요.");
+				return;
+			}
+			ink.useInk();
+			System.out.print("촐력 시작");
+			System.out.print("<<"+str+">>");
+			System.out.print("출력 끝");
+		
+		}
+		
 	}
-	
-}
