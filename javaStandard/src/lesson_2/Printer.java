@@ -11,7 +11,7 @@ public class Printer {
 	}
 	
 	public boolean checkPower() {
-		if(power == true) {
+		if(power == false) {
 			System.out.println("전원상태 : ON");
 		}else {
 			System.out.println("전원상태 : OFF");
