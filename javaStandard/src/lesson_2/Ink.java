@@ -7,7 +7,7 @@ public class Ink {
 	
 	public Ink() {
 		inkCount = 3;
-		
+		System.out.println(inkCount + "현재 잉크 개수는?");
 	}
 	
 	public boolean useInk() {
@@ -16,6 +16,7 @@ public class Ink {
 		if(inkCount > 0) {
 			inkCount--;
 			existInk = true;
+			System.out.println(inkCount+"현재 잉크의 개수는?");
 		}else {
 			System.out.println("잉크가 모자랍니다.");
 			existInk = false;

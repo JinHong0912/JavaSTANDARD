@@ -33,7 +33,7 @@ public class Printer {
 			 System.out.println("전원을 켜주새요.");
 			 return;
 		}
-		boolean existInk= ink.useInk();
+		boolean existInk = ink.useInk();
 		if(existInk) {
 			System.out.println("출력 시작");
 			System.out.println("<<"+str+">>");
@@ -44,8 +44,7 @@ public class Printer {
 
 	public void chargeInk(int count) {
 		
-		Ink ink = new Ink();
-		
+		System.out.println(count+"개의 잉크가 충전 되었습니다.");
 		ink.chargeInk(count);
 	}
 
