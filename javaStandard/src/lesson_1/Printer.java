@@ -2,45 +2,41 @@ package lesson_1;
 
 public class Printer {
 	
-	// 바꿀수 없어
 	private boolean power;
-	Ink ink;// = new Ink();
+	// true, false 이기 때문에 boolean 으로 선언
 	
-	Printer(){
+	Ink ink;
+	Printer(){//생성자추가
 		power = false;
 		ink = new Ink();
 	}
-	
+
 	public boolean checkPower() {
-		if(power == true ) {
+		if(power == true) {
 			System.out.println("전원상태 : ON");
 		}else {
-			System.out.println("전원상태 : OFF ");
+			System.out.println("전원상태 :OFF");
 		}
 		return this.power;
 	}
 	
-
 	public void powerOn() {
 		power = true;
 	}
+	
 	public void powerOff() {
+		
 		power = false;
 	}
 	
-	public void print (String str) {
-		
+	public void print(String str) {
 		if (power == false) {
-			System.out.println("전원을 켜주세요.");
-		
+			System.out.println("전원을 켜주세요");
 			return;
-		
 		}
-		
 		ink.useInk();
 		System.out.println("출력 시작");
 		System.out.println("<<"+str+">>");
-		System.out.println("출력 ");
+		System.out.println("출력 끝");
 	}
-
-}//End
+}

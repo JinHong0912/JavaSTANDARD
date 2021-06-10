@@ -1,4 +1,4 @@
-package lesson_1;
+package lesson_1Compare_1;
 
 public class Ink {
 	
@@ -7,8 +7,9 @@ public class Ink {
 	public Ink() {
 		inkCount = 3;
 	}
-	public void useInk() {
-		System.out.println("남은 잉크 수량 : "+ ++inkCount);
-	}
 
+	
+	public void useInk() {
+		System.out.println("남은 잉크 수정 : " + --inkCount);
+	}
 }
