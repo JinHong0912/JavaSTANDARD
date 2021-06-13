@@ -7,7 +7,7 @@ public class Printer {
 	
 	Printer() {
 		power = false;
-		ink = new Ink();
+		 ink = new Ink();
 	}
 	
 	public boolean checkPower() {

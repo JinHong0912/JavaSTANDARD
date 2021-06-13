@@ -13,6 +13,7 @@ public class User {
 		pt_1.print("출력테스트2");
 		pt_1.print("출력테스트3");
 		pt_1.print("출력테스트4");
+		
 		pt_1.chargeInk(10);
 		pt_1.print("충전 후 출력1");
 		pt_1.print("충전 후 출력2");

@@ -6,6 +6,7 @@ public class Human {
 	private int height;
 	
 	public Human() {
+		this.height = 0;
 		System.out.println("Human 파라미터 없는 생성자 실행");
 	}
 	
@@ -22,6 +23,7 @@ public class Human {
 	
 	public String getName() {
 		
+		System.out.println();
 		return name;
 	}
 
@@ -30,6 +32,7 @@ public class Human {
 	}
 
 	public int getHeight() {
+		
 		return height;
 	}
 	

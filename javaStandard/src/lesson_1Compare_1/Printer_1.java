@@ -9,6 +9,7 @@ public class Printer_1 {
 	Printer_1(){ // 생성자가 실행 되자 마자  초기화 한다.
 		power = false;
 		ink = new Ink(); // Ink 초기화
+		System.out.println("생성자 실행 :");
 	}
 	
 	public boolean checkPower_1() {
@@ -32,12 +33,21 @@ public class Printer_1 {
 		if(power == false) {
 			  System.out.println("전원을 켜주세요.");
 			  return;
-		}
+		
+		}else if(true) {
+			
 			ink.useInk();
 			System.out.println("출력 시작 ");
 			System.out.println("<<"+str+">>");
 			System.out.println("출력 끝");
+			ink.changInk();
+	
+		}
+		
 	}
+	
+	
+	
 	
 	
 }
