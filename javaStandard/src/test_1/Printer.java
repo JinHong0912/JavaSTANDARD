@@ -1,29 +1,31 @@
 package test_1;
 
 public class Printer {
-	
-	Ink ink;
+		
+	Ink ink; 
 	
 	public Printer() {
+		
 		ink = new Ink();
 	}
-	public String print(String str) {
-		
-	
-		
-		
-		if(ink.checkInk()) {
-		
-			str = "<<"+str+">>";
-			ink.changInk();
-		
-		}else {
 
-			str = "용지가 없습니다."; 
-	
+	// User String 받아 오기
+	public String print(String str) {
+		//checkInk 테스트
+		
+		
+		//InkCount 테스트
+		if(ink.inkCheck()) {
+			
+			str = "<<"+str+">>";
+			ink.changeInk();
+			
+		}else{
+			
+			str ="잉크가 없습니다.";
 		}
 		
 		return str;
+		
 	}
-
 }
