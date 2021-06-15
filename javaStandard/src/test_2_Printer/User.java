@@ -17,12 +17,21 @@ public class User {
 		//pt.print("용지 테스트1");
 
 		//if 테스트
+		//1번 출력
 		pt.print("if 테스트1");
 		pt.print("if 테스트2");
 		pt.print("if 테스트3");
 		pt.print("if 테스트4");
 		pt.print("if 테스트5");
-		
+//		
+//		2번 출력
+//		System.out.println(pt.print("sysout1"));
+//		System.out.println(pt.print("sysout2"));
+//		System.out.println(pt.print("sysout3"));
+//		System.out.println(pt.print("sysout4"));
+//		System.out.println(pt.print("sysout5"));
+	
+	
 	}
 
 }

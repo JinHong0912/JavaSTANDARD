@@ -40,8 +40,7 @@ public class Printer {
 			
 			
 		}else {
-			
-			text = "잉크를 체워 주세요"; // 
+			//text = "잉크를 체워 주세요"; // 
 			System.out.println("용지가 없습니다.");
 		}
 		
