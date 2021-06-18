@@ -9,7 +9,7 @@ public class Fan {
 	private int windNum;
 	
 	public Fan() {
-		
+
 		power = false;
 		windNum = 0;
 		//System.out.println("콘센트를 연결해주세요 : " + power);
@@ -59,9 +59,8 @@ public class Fan {
 		return windNum;
 	}
 
-	// 선풍기 회전
-	
 
+	
 
 
 }
