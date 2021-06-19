@@ -4,8 +4,9 @@ public class User {
 
 	public static void main(String[] args) {
 		//
-		System.out.println("선풍기 만들기");
+		//System.out.println("선풍기 만들기");
 		Fan fan  = new Fan();
+		Wind wind = new Wind();
 		//Wind win = new Wind();
 		
 		
@@ -16,9 +17,10 @@ public class User {
 		fan.fanCheck();
 		
 		//fan.windChoice(0);
+		
 		//fan.windChoice(1);
 		//fan.windChoice(2);
-		fan.windChoice(3);
-	
+		//fan.windChoice(3);
+		wind.talkWind("강풍");
 	}
 }

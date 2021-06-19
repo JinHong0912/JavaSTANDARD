@@ -2,26 +2,35 @@ package test_3_fan;
 
 public class Wind {
 
-
-	private int windNum;
+	//선풍기에 음성 인식이 되는 기능
+	private String wind;
 	
+	Fan fan;
 	public Wind() {
-		windNum = 1;
-		System.out.println(windNum);
+		 fan = new Fan();
+		wind = "정지";
+		System.out.println("이 선풍기는 음성인식이 가능 합니다. 처음 상태는? : "+wind+"입니다");
 	}
 	
-	public int windChoice(int windNum) {
-		
-		windNum = 1;
-		System.out.println(windNum);
-		
-		return windNum;
-	}
 
-	public int getWindNum() {
-		return windNum;
+	public String talkWind(String str) {
+		
+		if(str == "미풍") {
+			
+			fan.windChoice(1);
+		
+		}else if(str == "약풍"){
+			fan.windChoice(2);
+			
+		}else if(str == "강풍") {
+			
+			fan.windChoice(3);
+		}else {
+			System.out.println("발음을 정확히 말씀해 주세요.");
+		}
+		
+		return str;
 	}
-
 
 	
 }

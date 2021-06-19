@@ -8,10 +8,13 @@ public class Fan {
 	
 	private int windNum;
 	
+	Wind wind;
+	
 	public Fan() {
 
 		power = false;
 		windNum = 0;
+		//wind = new Wind();
 		//System.out.println("콘센트를 연결해주세요 : " + power);
 		//System.out.println("바람을 선택해주세요 : " + windNum);
 	}
@@ -33,7 +36,7 @@ public class Fan {
 	public boolean fanCheck() {
 		
 		if(power == true) {
-			System.out.println("바람의 세기를 선택하세요 : 1, 2, 3");
+			System.out.println("바람의 세기를 1,2,3 중 선택하세요. 또는 미풍 , 약풍 , 강풍 으로 말해 주세요 ");
 		}else {
 			System.out.println("선풍기의 전원을 켜주세요.");
 		}
