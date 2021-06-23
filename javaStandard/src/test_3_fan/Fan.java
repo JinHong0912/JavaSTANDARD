@@ -46,6 +46,7 @@ public class Fan {
 
 	// 바람 세기 테스트
 	public int windChoice(int windNum) {
+		//wind.talkWind(windNum);
 		
 		if(windNum == 1) {
 			System.out.println("미풍을 선택 하셨습니다.");

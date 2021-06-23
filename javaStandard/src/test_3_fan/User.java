@@ -18,9 +18,14 @@ public class User {
 		
 		//fan.windChoice(0);
 		
-		//fan.windChoice(1);
+		fan.windChoice(1);
 		//fan.windChoice(2);
 		//fan.windChoice(3);
-		wind.talkWind("강풍");
+		//wind.talkWind("강풍");
+	
+	//선풍기에서 바람을 선풍기가 관리 하게 만들어 보기
+		//fan.wind("미풍");
+	
+	
 	}
 }
