@@ -11,11 +11,11 @@ public class User {
 		Printer pt = new Printer();
 		
 		
-		System.out.println(pt.print("출력 테스트1"));
+		//System.out.println(pt.print("출력 테스트1"));
 		
 		//출력 테스트
-		System.out.println(pt.print("출력 테스트2"));
-		System.out.println(pt.print("출력 테스트3"));	System.out.println(pt.print("출력 테스트3"));
+		//System.out.println(pt.print("출력 테스트2"));
+		//System.out.println(pt.print("출력 테스트3"));	
 
 		pt.print("출력 테스트1");
 	

@@ -1,11 +1,14 @@
 package test_1;
 
 public class Printer {
-		
+	
+	private boolean power;
+	
 	Ink ink; 
 	
+	
 	public Printer() {
-		
+		power = false;
 		ink = new Ink();
 	}
 
