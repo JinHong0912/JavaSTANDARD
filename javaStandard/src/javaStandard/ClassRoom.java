@@ -24,7 +24,7 @@ class Student {
 	int subnum;     //필드 과목수
 	Test[] test;
 	
-	Student(int i, String n ,int s){ //생성자
+	public Student(int i, String n ,int s){ //생성자
 		id = i;
 		name = n;
 		subnum = s;
@@ -37,19 +37,19 @@ class Student {
 	}
 	
 	
-	String getName() { // 이름을 가져 오는 메소드
+	public String getName() { // 이름을 가져 오는 메소드
 		
 		return id + ":"+ name ;
 	}
 	
-	 int getGrade() { //  총점을 가지고 오는 메소드
+	 public int getGrade() { //  총점을 가지고 오는 메소드
 		int sum = 0;
 		for(int i = 0; i < subnum; i++) 
 			sum += test[i].point;
 		return sum;
 	 }
 	//메소드 오버로딩
-	int getGrade(int a) { // 성적을 평가 하는 메소드
+	 public int getGrade(int a) { // 성적을 평가 하는 메소드
 		int base = 100 * subnum / a;
 		int rank = getGrade() /base + 1;
 		
@@ -58,7 +58,7 @@ class Student {
 	}
 	
 	
-	void printScore() { // 성적을 표시하는 메소드
+	public void printScore() { // 성적을 표시하는 메소드
 		System.out.println(getName());
 		for(int i =0; i < subnum; i++) {
 			System.out.println(test[i].getPoint()+" ");
