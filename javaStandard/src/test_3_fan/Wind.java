@@ -1,6 +1,8 @@
 package test_3_fan;
 
-public class Wind {
+public class Wind extends Fan { // Fan 상속 받아서 사용해 보기
+	
+	
 
 	//선풍기에 음성 인식이 되는 기능
 	private String wind;

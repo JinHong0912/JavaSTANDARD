@@ -1,14 +1,13 @@
 package test_3_fan;
 
-public class Fan {
+public class Fan{ 
 	
 	//선풍기 On,Off
 	//처음에는 선풍기 꺼짐
 	private boolean power;
 	
 	private int windNum;
-	
-	Wind wind;
+
 	
 	public Fan() {
 
